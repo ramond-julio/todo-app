@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.button-item {
+  background-color: blue;
+  color: white;
+  margin: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +32,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.input-class {
+  border-width: 0px;
 }
 
 .App-link {
